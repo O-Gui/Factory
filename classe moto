@@ -1,0 +1,14 @@
+package br.com.guigas.veiculo;
+
+public class Moto implements ligarVeiculo {
+
+	@Override
+	public void ligar() {
+		System.out.println("ligando moto");
+		
+	}
+	
+	
+	
+
+}
