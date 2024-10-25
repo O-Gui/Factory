@@ -1,0 +1,8 @@
+package br.com.guigas.veiculo;
+
+public interface ligarVeiculo {
+	
+	public void ligar();
+	
+
+}
