@@ -1,0 +1,20 @@
+package br.com.main;
+
+import br.com.guigas.veiculo.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+veiculoFactory objveiculoFactory = new veiculoFactory();
+ligarVeiculo carro = objveiculoFactory.criarVeiculo("Carro");
+carro.ligar();
+
+ligarVeiculo moto = objveiculoFactory.criarVeiculo("Moto");
+moto.ligar();
+		
+		
+		
+	}
+
+}
