@@ -1,0 +1,19 @@
+package br.com.guigas.veiculo;
+
+public class veiculoFactory {
+	
+	
+	public ligarVeiculo criarVeiculo( String tipo) {
+		if (tipo == "Moto") {
+			
+			return new Moto();
+			
+		} else if ( tipo == "Carro") {
+			
+			return new Carro();
+		}
+		return null;
+		
+	}
+
+}
