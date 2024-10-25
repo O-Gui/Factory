@@ -1,0 +1,12 @@
+package br.com.guigas.veiculo;
+
+public class Carro implements ligarVeiculo {
+
+	@Override
+	public void ligar() {
+		System.out.println("ligando carro");
+		
+	}
+	
+
+}
